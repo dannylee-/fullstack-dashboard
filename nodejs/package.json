@@ -1,0 +1,26 @@
+{
+  "name": "fullstack-dashboard",
+  "version": "1.0.0",
+  "description": "A single page web application that displays a group of widgets.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannylee-/fullstack-dashboard.git"
+  },
+  "keywords": [
+    "fullstack",
+    "dashboard"
+  ],
+  "author": "toure",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannylee-/fullstack-dashboard/issues"
+  },
+  "homepage": "https://github.com/dannylee-/fullstack-dashboard",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
