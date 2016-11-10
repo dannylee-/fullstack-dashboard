@@ -12,42 +12,70 @@
     </style>
   </head>
   <body>  
-    <App>
+    <App class="container-fluid">
       <header>
-      <nav>
-        <Navbar>
-          <NavbarHeader>
+      <nav class="col-md-1">
+        <Navbar class="navbar navbar-default">
+          <NavbarHeader class="navbar-header">
             <Logo style="margin:5px">
-              <img src="http://www.bytelion.com/wp-content/uploads/2016/09/full_stack.png" />
+              <img class="img-responsive" src="http://www.bytelion.com/wp-content/uploads/2016/09/full_stack.png" />
             </Logo>
             <HorizontalLine style="border-top:1px solid gray; margin: 5px 5px"></HorizontalLine>
             <HorizontalLine style="border-top:1px solid gray; margin: 5px 5px"></HorizontalLine>
             <HorizontalLine style="border-top:1px solid gray; margin: 5px 5px"></HorizontalLine>
           </NavbarHeader>
           <NavItemList>
-            <ul style="margin:8px">
+            <ul class="nav" style="margin:8px">
               <NavItem>
-                <img src="https://snaplogic-h.s3.amazonaws.com/uploads/snap/image/55/sm_jira.jpg" />
+                <img class="img-responsive" src="https://snaplogic-h.s3.amazonaws.com/uploads/snap/image/55/sm_jira.jpg" />
               </NavItem>
               <NavItem>
-                <img src="https://upload.wikimedia.org/wikipedia/en/1/19/Google_Maps_Icon.png" />
+                <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/en/1/19/Google_Maps_Icon.png" />
               </NavItem>
             </ul>
           </NavItemList>
         </Navbar>
       </nav>
-      <Content>
-        <ContainerRow>
-          <Container style="height: 300px">
+      <Content class="col-md-11">
+        <ContainerRow class="row">
+          <Container class="col-md-6" style="height: 300px">
             <div style="background-color:rgb(231, 231, 231);height:100%">
-              <div style="height: 50px">Container 1</div>
-              <img src="https://snaplogic-h.s3.amazonaws.com/uploads/snap/image/55/sm_jira.jpg" />
+              <div class="text-center" style="height: 50px">Container 1</div>
+              <img class="img-responsive center-block" src="https://snaplogic-h.s3.amazonaws.com/uploads/snap/image/55/sm_jira.jpg" />
             </div>
           </Container>
-          <Container style="height: 300px">
+          <Container class="col-md-6" style="height: 300px">
             <div style="background-color:rgb(231, 231, 231);height:100%">
-              <div style="height: 50px">Container 2</div>
-              <img src="https://upload.wikimedia.org/wikipedia/en/1/19/Google_Maps_Icon.png" />
+              <div class="text-center" style="height: 50px">Container 2</div>
+              <img class="img-responsive center-block" src="https://upload.wikimedia.org/wikipedia/en/1/19/Google_Maps_Icon.png" />
+            </div>
+          </Container>
+        </ContainerRow>
+        <ContainerRow class="row">
+          <Container class="col-md-6" style="height: 300px">
+            <div style="background-color:rgb(231, 231, 231);height:100%">
+              <div class="text-center" style="height: 50px">Container 3</div>
+              <img class="img-responsive center-block" src="https://snaplogic-h.s3.amazonaws.com/uploads/snap/image/55/sm_jira.jpg" />
+            </div>
+          </Container>
+          <Container class="col-md-6" style="height: 300px">
+            <div style="background-color:rgb(231, 231, 231);height:100%">
+              <div class="text-center" style="height: 50px">Container 4</div>
+              <img class="img-responsive center-block" src="https://upload.wikimedia.org/wikipedia/en/1/19/Google_Maps_Icon.png" />
+            </div>
+          </Container>
+        </ContainerRow>
+        <ContainerRow class="row">
+          <Container class="col-md-6" style="height: 300px">
+            <div style="background-color:rgb(231, 231, 231);height:100%">
+              <div class="text-center" style="height: 50px">Container 5</div>
+              <img class="img-responsive center-block" src="https://snaplogic-h.s3.amazonaws.com/uploads/snap/image/55/sm_jira.jpg" />
+            </div>
+          </Container>
+          <Container class="col-md-6" style="height: 300px">
+            <div style="background-color:rgb(231, 231, 231);height:100%">
+              <div class="text-center" style="height: 50px">Container 6</div>
+              <img class="img-responsive center-block" src="https://upload.wikimedia.org/wikipedia/en/1/19/Google_Maps_Icon.png" />
             </div>
           </Container>
         </ContainerRow>
